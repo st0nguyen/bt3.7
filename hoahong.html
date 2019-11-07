@@ -10,6 +10,10 @@
 
 <body>
     <script>
+                /*hoa hồng theo doanh số như sau:
+    5% nếu tổng doanh số nhỏ hơn hoặc bằng 100 triệu.
+    10% nếu tổng doanh số nhỏ hơn hoặc bằng 300 triệu.
+    20 % nếu tổng doanh số là lớn hơn 300 triệu.*/
         let doanhso = +prompt('nhập doanh số bán hàng(triệu):');
         if (doanhso <= 100 && doanhso >0) {
             hoahong = doanhso * 5 / 100;
