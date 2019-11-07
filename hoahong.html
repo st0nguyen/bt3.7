@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let doanhso = +prompt('nhập doanh số bán hàng(triệu):');
+        if (doanhso <= 100 && doanhso >0) {
+            hoahong = doanhso * 5 / 100;
+            alert('với doanh sô là ' + doanhso + ' thì hoa hồng là: ' + hoahong);
+        } else if (doanhso <= 300) {
+            hoahong = doanhso * 10 / 100;
+            alert('với doanh sô là ' + doanhso + ' thì hoa hồng là: ' + hoahong);
+
+        }
+        else if (doanhso > 300) {
+            hoahong = doanhso * 20 / 100;
+            alert('với doanh sô là ' + doanhso + ' thì hoa hồng là: ' + hoahong);
+        }else {
+            alert('không có hoa hồng');
+        }
+
+    </script>
+
+</body>
+
+</html>
